@@ -1,0 +1,100 @@
+Page 1: Introduction and Definitions
+Topic: Tech Stack - OOPs -> Object-Oriented Programming
+.
+Procedural Oriented Programming: A programming paradigm where the program is organized as a sequence of functions or procedures that operate on data
+. It focuses on functions, and before OOP existed, most programs were written this way (e.g., in the 'C' language)
+.
+In Procedural Programming:
+The program is divided into functions
+.
+Data and functions are separate
+.
+Functions operate on the data
+.
+Problems with Large/Complex Software: As software grows, procedural programming causes problems: code becomes difficult to manage, data security is weak, and large programs become hard to maintain
+.
+Object-Oriented Programming (OOP): A programming paradigm where the program is organized around objects that contain both data (attributes) and functions (methods)
+. OOP focuses on objects
+.
+Page 2: The OOP Solution and Car Analogy
+The Purpose: Object-oriented programming was introduced to solve the issues found in procedural programming
+.
+The Goal: OOP organizes programs using objects that combine data and behavior together, making programs easier to learn, design, and maintain
+.
+Real-World Analogy (CAR):
+Data (Attributes): Color, Speed, Fuel Level
+.
+Behavior (Methods): start(), Accelerate(), Break()
+.
+Structure:
+OOP Approach: Combines data (color, speed) and functions (start, stop)
+.
+Procedural Approach: Separates these things into different functions and variables
+.
+Procedural Flow: Program -> Functions -> Data
+.
+Page 3: Procedural Programming Example (C Language)
+Example Code:
+int balance = 1000; (Global Data)
+.
+void deposit(int amount) and void withdraw(int amount) (Functions)
+.
+Explanation: In this example, balance is global data, and the functions directly modify that data
+.
+The Problem: Because the data is global, any function can modify the balance
+. This causes significant security and maintenance problems
+.
+Page 4: Object-Oriented Structure and Python Example
+OOP Structure: Program -> Class -> Objects -> Methods
+.
+Key Principle: Data and functions are combined together inside a class, and access to data is controlled
+.
+Example in Python:
+A class BankAccount is defined
+.
+It uses __init__ to set the balance
+.
+Methods like deposit and withdraw are defined inside the class to manage self.balance
+.
+Usage: account = BankAccount(1000) allows calling account.deposit(500)
+.
+Page 5: Comparison Table and Benefits
+Analysis of the Python Example: BankAccount is the class, balance is the data, and deposit() and withdraw() are methods
+. Everything is organized inside the class, making it organized, secure, and easy to maintain
+.
+Comparison Table:
+Feature
+Procedural Programming
+Object-Oriented Programming
+Focus
+Focus on functions
+Focus on objects
+Data & Functions
+Data and functions are separate
+Data and functions are combined
+Security
+Less secure
+More secure
+Maintenance
+Difficult to maintain large programs
+Easier to manage large programs
+Code Reuse
+Code reuse is limited
+Code reuse is possible
+Examples
+C, Pascal
+Java, Python, C++, C#
+Conclusion: OOP provides better modularity, security, and code reuse
+.
+Page 6: Common Misconceptions and the Four Pillars
+Common Mistake: Many students think OOP means only classes and objects
+.
+The Four Pillars of OOP:
+Encapsulation
+.
+Inheritance
+.
+Polymorphism
+.
+Abstraction
+.
