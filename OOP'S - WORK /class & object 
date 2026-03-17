@@ -1,0 +1,62 @@
+Page 1: Introduction to Class & Object
+Topic - 2 & 3: Class & Object
+Class: A class is a blueprint (or) template used to create objects
+. It defines the properties (data) and behaviors (methods) that the object created from it will have
+.
+A class is like a design or plan
+.
+Analogy: An architectural blueprint is used to build many houses (by the same plan); similarly, a class is used to create many objects
+.
+Real-World Example: Student
+Data (Attributes): Name, Age, Pin number
+.
+(Methods) Actions: study(), attendance(), write_exam()
+.
+Key Insight: Instead of writing this information separately for every student, we can create a "class student" that defines properties and behaviors, then create many student objects from that class
+.
+Page 2: Class Syntax and Key Characteristics
+Class Syntax:
+Class vs. Object:
+Class: Blueprint
+.
+Object: Real instance created from the blueprint
+.
+Python Example:
+Key Characteristics:
+Data + Functions together: A class combines data and functions
+.
+Access: We can only access the data in the class via the object
+.
+Action: A class itself does not perform actions until objects are created
+.
+Keyword: Python uses the keyword class
+.
+Page 3: Understanding Objects
+Definition: An object is an instance (refers) of a class
+. It is a real entity created from the class blueprint that contains actual data and can perform actions defined in the class
+.
+Structure vs. Reality:
+A class only defines the structure
+.
+An object is the actual usable thing created from that structure, and memory is allocated to it
+.
+Real-World Example: Car
+Class: Car (defines attributes like brand, colour, speed and methods like start(), stop(), accelerate())
+.
+Objects:
+Car 1: Toyota (Brand="Toyota", Color="Red", Speed=100 k/hr)
+.
+Car 2: BMW
+.
+Page 4: Object Creation and Memory
+Key Principles:
+The class defines the structure, while each object holds its own data
+.
+Memory allocation takes place for the object itself
+.
+By using an object, we can call methods defined in the class
+.
+Object Syntax: object_name = className()
+.
+Python Example of Object Usage:
+Result: The output of dog1.bark() would be "Dog is barking"
