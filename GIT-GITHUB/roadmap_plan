@@ -1,0 +1,53 @@
+PHASE 1: Git Foundations (Local System Mastery)
+
+This is where most people are weak. We’ll make you strong here.
+
+What is Git? Why it exists (Version Control System)
+Git vs GitHub (VERY IMPORTANT)
+Installing Git + Setup (git config)
+Git Architecture (Working Directory → Staging → Repository)
+git init
+git status
+git add (including git add .)
+git commit (deep understanding)
+Viewing history (git log)
+File lifecycle in Git
+
+
+🔹 PHASE 2: Branching (REAL POWER of Git)
+What is a branch?
+git branch
+git checkout
+git switch
+git merge
+Merge conflicts (VERY IMPORTANT)
+Best practices
+
+
+🔹 PHASE 3: GitHub (Remote System)
+What is GitHub?
+Local vs Remote repo
+git remote add
+git push
+git pull
+git clone
+SSH vs HTTPS
+
+
+
+🔹 PHASE 4: Collaboration (Industry Level)
+Pull Requests (PR)
+Forking
+Code reviews
+Team workflows
+
+
+
+🔹 PHASE 5: Advanced Git (Pro Level)
+.gitignore
+git stash
+git reset
+git revert
+git rebase
+Force push (--force)
+Cherry-pick
